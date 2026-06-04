@@ -8,8 +8,9 @@ void LCM(int n1,int n2)
     for(int i=1;i!=0;i++)
     {
         if(i%n1==0&&i%n2==0)
-        {lcm=i;
-        break;
+        {
+            lcm=i;
+            break;
         }
 
     }
